@@ -1,0 +1,36 @@
+{
+  "name": "youtube-suggest",
+  "description": "get youtube search suggestions for a query, in node.js and the browser",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "browser": {
+    "node-fetch": false
+  },
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/youtube-suggest/issues"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "standard": "^14.0.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/youtube-suggest",
+  "keywords": [
+    "autocomplete",
+    "autosuggest",
+    "completion",
+    "search",
+    "suggestions",
+    "youtube"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/youtube-suggest.git"
+  },
+  "scripts": {
+    "test": "standard && node test"
+  }
+}
