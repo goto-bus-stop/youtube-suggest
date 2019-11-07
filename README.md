@@ -38,6 +38,8 @@ youtubeSuggest('query').then(function (results) {
 ### `youtubeSuggest(query: string): Promise<string[]>`
 Do a network request for suggestions, returning the suggested completion strings as an array.
 
+In Node.js it uses `node-fetch`. In the browser it uses JSONP.
+
 ## License
 
 [Apache-2.0](LICENSE.md)

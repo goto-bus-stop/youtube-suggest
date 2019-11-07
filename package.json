@@ -3,9 +3,7 @@
   "description": "get youtube search suggestions for a query, in node.js and the browser",
   "version": "1.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
-  "browser": {
-    "node-fetch": false
-  },
+  "browser": "browser.js",
   "bugs": {
     "url": "https://github.com/goto-bus-stop/youtube-suggest/issues"
   },
