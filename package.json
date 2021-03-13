@@ -30,6 +30,8 @@
     "url": "https://github.com/goto-bus-stop/youtube-suggest.git"
   },
   "scripts": {
-    "test": "standard && node test"
+    "lint": "standard",
+    "tests-only": "node test",
+    "test": "npm run lint && npm run tests-only"
   }
 }
