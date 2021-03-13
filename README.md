@@ -5,13 +5,13 @@ get youtube search suggestions for a query, in node.js and the browser
 [Install](#install) - [Usage](#usage) - [License: Apache-2.0](#license)
 
 [![npm][npm-image]][npm-url]
-[![travis][travis-image]][travis-url]
+[![ci status][actions-image]][actions-url]
 [![standard][standard-image]][standard-url]
 
 [npm-image]: https://img.shields.io/npm/v/youtube-suggest.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/youtube-suggest
-[travis-image]: https://img.shields.io/travis/com/goto-bus-stop/youtube-suggest.svg?style=flat-square
-[travis-url]: https://travis-ci.com/goto-bus-stop/youtube-suggest
+[actions-image]: https://github.com/goto-bus-stop/youtube-suggest/actions/workflows/ci.yml/badge.svg
+[actions-url]: https://github.com/goto-bus-stop/youtube-suggest/actions/workflows/ci.yml
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: http://npm.im/standard
 
