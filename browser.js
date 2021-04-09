@@ -1,7 +1,8 @@
-const jsonp = require('smol-jsonp')
+/* eslint-disable no-var */
+var jsonp = require('smol-jsonp')
 
 // `client` is a required parameter. `client=firefox` returns the smallest result.
-const baseUrl = 'https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q='
+var baseUrl = 'https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q='
 
 function unwrapResults (data) { return data[1] }
 
