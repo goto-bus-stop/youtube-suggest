@@ -1,5 +1,5 @@
-var youtubeSuggest = require('.')
-var assert = require('assert')
+const youtubeSuggest = require('.')
+const assert = require('assert')
 
 youtubeSuggest('query').then(function (results) {
   assert(Array.isArray(results))
