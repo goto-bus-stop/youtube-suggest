@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.2.0
+* Add typescript types.
+* Add `locale` option to request completions tailored for a specific locale.
+
 ## 1.1.2
 * Change user agent to get UTF-8 encoded responses. ([@Svallinn](https://github.com/Svallinn) in [#6](https://github.com/goto-bus-stop/youtube-suggest/pull/7))
 
