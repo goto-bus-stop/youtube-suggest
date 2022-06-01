@@ -1,5 +1,4 @@
-let fetch = require('node-fetch')
-if (typeof fetch !== 'function') fetch = window.fetch
+const fetch = require('node-fetch')
 
 // `client` is a required parameter. `client=firefox` returns the smallest result.
 const baseUrl = 'https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q='
