@@ -35,8 +35,15 @@ youtubeSuggest('query').then(function (results) {
 
 ## API
 
-### `youtubeSuggest(query: string): Promise<string[]>`
+### `youtubeSuggest(query: string, opts?: { locale?: string }): Promise<string[]>`
 Do a network request for suggestions, returning the suggested completion strings as an array.
+
+Optionally specify an [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code to get
+completions intended for that locale:
+```js
+youtubeSuggest('pet', { locale: 'en' }) // returns people named "peter", pet video titles, etc
+youtubeSuggest('pet', { locale: 'fr' }) // returns various small things
+```
 
 In Node.js it uses `node-fetch`. In the browser it uses JSONP.
 
