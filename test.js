@@ -1,3 +1,5 @@
+'use strict'
+
 const youtubeSuggest = require('.')
 const assert = require('assert')
 

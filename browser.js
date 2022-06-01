@@ -1,4 +1,6 @@
 /* eslint-disable no-var */
+'use strict'
+
 var jsonp = require('smol-jsonp')
 
 // `client` is a required parameter. `client=firefox` returns the smallest result.

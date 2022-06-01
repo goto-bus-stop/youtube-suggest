@@ -1,3 +1,5 @@
+'use strict'
+
 const fetch = require('node-fetch')
 
 // `client` is a required parameter. `client=firefox` returns the smallest result.
